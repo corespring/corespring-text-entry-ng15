@@ -4,6 +4,6 @@
   "private": true,
   "main": "src/controller.js",
   "dependencies": {
-    "corespring-legacy-text-entry": "PieLabs/corespring-legacy-text-entry"
+    "corespring-legacy-text-entry": "corespring/corespring-legacy-text-entry"
   }
 }
