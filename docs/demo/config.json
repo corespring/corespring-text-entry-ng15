@@ -1,0 +1,35 @@
+{
+  "pies": [
+    {
+      "id": "1",
+      "pie": {
+        "name": "corespring-text-entry-ng15",
+        "version": "1.0.0"
+      },
+      "title": "Text Entry",
+      "componentType": "corespring-text-entry",
+      "correctResponses": {
+        "award": 100,
+        "values": ["a"],
+        "ignoreWhitespace": true,
+        "ignoreCase": true,
+        "feedback": {
+          "value": "Correct!"
+        }
+      },
+      "incorrectResponses": {
+        "award": 0,
+        "feedback": {
+          "value": "Incorrect. A correct answer would have been <random selection from correct answers>"
+        }
+      },
+      "model": {
+        "answerBlankSize": 8,
+        "answerAlignment": "left",
+        "allowDecimal": true,
+        "allowSeparator": true,
+        "allowNegative": true
+      }
+    }
+  ]
+}

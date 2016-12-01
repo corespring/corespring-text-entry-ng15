@@ -1,0 +1,9 @@
+{
+  "name": "corespring-text-entry-ng15-controller",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/controller.js",
+  "dependencies": {
+    "corespring-legacy-text-entry": "PieLabs/corespring-legacy-text-entry"
+  }
+}
