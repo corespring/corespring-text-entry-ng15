@@ -6,29 +6,38 @@
     {
       "id": "1",
       "element": "corespring-text-entry-ng15",
-      "title": "Text Entry",
-      "componentType": "corespring-text-entry",
-      "correctResponses": {
-        "award": 100,
-        "values": ["a"],
-        "ignoreWhitespace": true,
-        "ignoreCase": true,
-        "feedback": {
-          "value": "Correct!"
+      "model" : {
+          "answerBlankSize" : 5,
+          "answerAlignment" : "left"
+      },
+      "feedback" : {
+        "correctFeedbackType" : "default",
+        "incorrectFeedbackType" : "default"
+      },
+      "correctResponses" : {
+        "award" : 100,
+        "values" : [ 
+          "SIXTEEN", 
+          "16", 
+          "16.0", 
+          "sixteen", 
+          "Sixteen"
+        ],
+        "ignoreWhitespace" : true,
+        "ignoreCase" : true,
+        "feedback" : {
+            "type" : "custom",
+            "custom" : "Nice work, that's correct!",
+            "value" : "Nice work, that's correct!"
         }
       },
-      "incorrectResponses": {
-        "award": 0,
-        "feedback": {
-          "value": "Incorrect. A correct answer would have been <random selection from correct answers>"
+      "incorrectResponses" : {
+        "award" : 0,
+        "feedback" : {
+            "type" : "custom",
+            "custom" : "Good try, but the perimeter of the figure is 16 units.",
+            "value" : "Good try, but the perimeter of the figure is 16 units."
         }
-      },
-      "model": {
-        "answerBlankSize": 8,
-        "answerAlignment": "left",
-        "allowDecimal": true,
-        "allowSeparator": true,
-        "allowNegative": true
       }
     }
   ]
