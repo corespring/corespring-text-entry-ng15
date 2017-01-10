@@ -1,4 +1,4 @@
-# corespring-multiple-choice-ng15
+# corespring-text-entry-ng15
 
 A legacy component for [pie](http://github.com/PieLabs/pie).
 The component uses the same model as the legacy component apart from the additional pie:{} object
@@ -6,7 +6,7 @@ The component uses the same model as the legacy component apart from the additio
 ## Demo
 
  ```
-   pie info     
+ pie info     
  ```  
   
 
